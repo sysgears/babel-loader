@@ -54,6 +54,14 @@
   optionalDependencies:
     chokidar "^1.6.1"
 
+"@babel/code-frame@7.0.0-beta.38":
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0-beta.38.tgz#c0af5930617e55e050336838e3a3670983b0b2b2"
+  dependencies:
+    chalk "^2.0.0"
+    esutils "^2.0.2"
+    js-tokens "^3.0.0"
+
 "@babel/code-frame@7.0.0-beta.5":
   version "7.0.0-beta.5"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.0.0-beta.5.tgz#f719d8988503c7c286b40edd66bda0e093f9e47f"
@@ -61,6 +69,25 @@
     chalk "^2.0.0"
     esutils "^2.0.2"
     js-tokens "^3.0.0"
+
+"@babel/core@7.0.0-beta.38":
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.0.0-beta.38.tgz#f669abfd5ca918a53cfef45eb57d9efd8d8eac5b"
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.38"
+    "@babel/generator" "7.0.0-beta.38"
+    "@babel/helpers" "7.0.0-beta.38"
+    "@babel/template" "7.0.0-beta.38"
+    "@babel/traverse" "7.0.0-beta.38"
+    "@babel/types" "7.0.0-beta.38"
+    babylon "7.0.0-beta.38"
+    convert-source-map "^1.1.0"
+    debug "^3.0.1"
+    json5 "^0.5.0"
+    lodash "^4.2.0"
+    micromatch "^2.3.11"
+    resolve "^1.3.2"
+    source-map "^0.5.0"
 
 "@babel/core@7.0.0-beta.5":
   version "7.0.0-beta.5"
@@ -80,6 +107,16 @@
     micromatch "^2.3.11"
     resolve "^1.3.2"
     source-map "^0.5.0"
+
+"@babel/generator@7.0.0-beta.38":
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.0.0-beta.38.tgz#6115a66663e3adfd1d6844029ffb2354680182eb"
+  dependencies:
+    "@babel/types" "7.0.0-beta.38"
+    jsesc "^2.5.1"
+    lodash "^4.2.0"
+    source-map "^0.5.0"
+    trim-right "^1.0.1"
 
 "@babel/generator@7.0.0-beta.5":
   version "7.0.0-beta.5"
@@ -127,6 +164,14 @@
     "@babel/traverse" "7.0.0-beta.5"
     "@babel/types" "7.0.0-beta.5"
 
+"@babel/helper-function-name@7.0.0-beta.38":
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.38.tgz#dc6e74930efc7b0236b5ba72a633d34c778ba015"
+  dependencies:
+    "@babel/helper-get-function-arity" "7.0.0-beta.38"
+    "@babel/template" "7.0.0-beta.38"
+    "@babel/types" "7.0.0-beta.38"
+
 "@babel/helper-function-name@7.0.0-beta.5":
   version "7.0.0-beta.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-function-name/-/helper-function-name-7.0.0-beta.5.tgz#e4a8cb2929f9791832acb1e452f175da7728e06e"
@@ -135,6 +180,12 @@
     "@babel/template" "7.0.0-beta.5"
     "@babel/traverse" "7.0.0-beta.5"
     "@babel/types" "7.0.0-beta.5"
+
+"@babel/helper-get-function-arity@7.0.0-beta.38":
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@babel/helper-get-function-arity/-/helper-get-function-arity-7.0.0-beta.38.tgz#5c27de7641ac31da6e947dcc8009bd31282d9d84"
+  dependencies:
+    "@babel/types" "7.0.0-beta.38"
 
 "@babel/helper-get-function-arity@7.0.0-beta.5":
   version "7.0.0-beta.5"
@@ -211,6 +262,14 @@
     "@babel/template" "7.0.0-beta.5"
     "@babel/traverse" "7.0.0-beta.5"
     "@babel/types" "7.0.0-beta.5"
+
+"@babel/helpers@7.0.0-beta.38":
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.0.0-beta.38.tgz#1e1695d55ead37757d339f5756b4c7316e0d70bb"
+  dependencies:
+    "@babel/template" "7.0.0-beta.38"
+    "@babel/traverse" "7.0.0-beta.38"
+    "@babel/types" "7.0.0-beta.38"
 
 "@babel/helpers@7.0.0-beta.5":
   version "7.0.0-beta.5"
@@ -467,6 +526,15 @@
     invariant "^2.2.2"
     semver "^5.3.0"
 
+"@babel/template@7.0.0-beta.38":
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.0.0-beta.38.tgz#8a2d403a01da320beb8333dc6403500fa79e8597"
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.38"
+    "@babel/types" "7.0.0-beta.38"
+    babylon "7.0.0-beta.38"
+    lodash "^4.2.0"
+
 "@babel/template@7.0.0-beta.5":
   version "7.0.0-beta.5"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.0.0-beta.5.tgz#400a58ee90230d77d5cd7f2fc5820b5d2f0ae18d"
@@ -474,6 +542,20 @@
     "@babel/code-frame" "7.0.0-beta.5"
     "@babel/types" "7.0.0-beta.5"
     babylon "7.0.0-beta.30"
+    lodash "^4.2.0"
+
+"@babel/traverse@7.0.0-beta.38":
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.0.0-beta.38.tgz#56462b91753dd5c6faf36e56a77c64077ddb85b8"
+  dependencies:
+    "@babel/code-frame" "7.0.0-beta.38"
+    "@babel/generator" "7.0.0-beta.38"
+    "@babel/helper-function-name" "7.0.0-beta.38"
+    "@babel/types" "7.0.0-beta.38"
+    babylon "7.0.0-beta.38"
+    debug "^3.0.1"
+    globals "^11.1.0"
+    invariant "^2.2.0"
     lodash "^4.2.0"
 
 "@babel/traverse@7.0.0-beta.5":
@@ -488,6 +570,14 @@
     globals "^10.0.0"
     invariant "^2.2.0"
     lodash "^4.2.0"
+
+"@babel/types@7.0.0-beta.38":
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.0.0-beta.38.tgz#2ce2443f7dc6ad535a67db4940cbd34e64035a6f"
+  dependencies:
+    esutils "^2.0.2"
+    lodash "^4.2.0"
+    to-fast-properties "^2.0.0"
 
 "@babel/types@7.0.0-beta.5":
   version "7.0.0-beta.5"
@@ -1227,6 +1317,10 @@ babylon@7.0.0-beta.22:
 babylon@7.0.0-beta.30:
   version "7.0.0-beta.30"
   resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.30.tgz#6f4353ca7a0fa6a1abbd805ecd166a0265b45a47"
+
+babylon@7.0.0-beta.38:
+  version "7.0.0-beta.38"
+  resolved "https://registry.yarnpkg.com/babylon/-/babylon-7.0.0-beta.38.tgz#9b3a33e571a47464a2d20cb9dd5a570f00e3f996"
 
 babylon@^6.1.0, babylon@^6.17.4, babylon@^6.18.0:
   version "6.18.0"
@@ -2534,6 +2628,10 @@ global-dirs@^0.1.0:
 globals@^10.0.0:
   version "10.1.0"
   resolved "https://registry.yarnpkg.com/globals/-/globals-10.1.0.tgz#4425a1881be0d336b4a823a82a7be725d5dd987c"
+
+globals@^11.1.0:
+  version "11.1.0"
+  resolved "https://registry.yarnpkg.com/globals/-/globals-11.1.0.tgz#632644457f5f0e3ae711807183700ebf2e4633e4"
 
 globals@^9.17.0, globals@^9.18.0:
   version "9.18.0"
