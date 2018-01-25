@@ -66,12 +66,15 @@ const write = function(filename, result, callback) {
  * Build the filename for the cached file
  *
  * @params {String} source  File source code
- * @params {Object} options Options used
+ * @params {Object} params Options used
  *
  * @return {String}
  */
-const filename = function(source, identifier, options) {
+const filename = function(source, identifier, params) {
   const hash = crypto.createHash("SHA1");
+  const options = Object.assign({}, params);
+  delete options.filename;
+  delete options.sourceRoot;
   const contents = JSON.stringify({
     source: source,
     options: options,

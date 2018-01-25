@@ -1,7 +1,7 @@
 {
-  "name": "babel-loader",
+  "name": "heroku-babel-loader",
   "version": "7.1.2",
-  "description": "babel module loader for webpack",
+  "description": "babel module loader for webpack with caching fixed to work on Heroku",
   "files": [
     "lib"
   ],
