@@ -57,13 +57,16 @@ const write = async function(filename, compress, result) {
  * Build the filename for the cached file
  *
  * @params {String} source  File source code
- * @params {Object} options Options used
+ * @params {Object} params Options used
  *
  * @return {String}
  */
-const filename = function(source, identifier, options) {
+const filename = function(source, identifier, params) {
   const hash = crypto.createHash("md4");
 
+  const options = Object.assign({}, params);
+  delete options.filename;
+  delete options.sourceRoot;
   const contents = JSON.stringify({ source, options, identifier });
 
   hash.update(contents);
